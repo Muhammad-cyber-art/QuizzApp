@@ -1,0 +1,65 @@
+@import "tailwindcss";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+
+:root{
+  background-color:rgb(162, 167, 172);
+}
+body.dark{
+  background-color: rgb(10, 10, 61);
+  color: aliceblue;
+}
+body.dark #root div main section div:nth-child(2) div a div{
+  background-color: rgb(13, 13, 94);
+}
+@media (max-width: 412px) {
+    body{
+      /* background-color: red; */
+      width: 100%;
+      /* display: none; */
+    }
+    section{
+      width: 500px;
+      height: 80vh;
+    }
+    .enter{
+      transform: translate(50px,-150px);
+      /* font-size: larger; */
+      /* color: red; */
+    }
+    .enter h1{
+      transform: translate(0px,-50px);
+    }
+    .enter i{
+      transform: translateY(-290px);
+    }
+    .menuLinks{
+      transform: translate(-270px,-10px);
+      width: 380px;
+      margin-right: 20px;
+    }
+  
+    header{
+      width: 500px;
+    }
+    .nav{
+      width: 500px;
+      justify-content: space-evenly;
+    }
+
+    /*asdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+    .testlar{
+      transform: translate(100px,-120px);
+     
+    }
+    .testlar .babu{
+      transform: translateY(-70px);
+    }
+    .testCont form{
+      transform: translate(-220px,0px);
+    }
+    .result{
+      transform: translate(0px,-120px);
+      
+    }
+  }
