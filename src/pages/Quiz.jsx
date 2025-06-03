@@ -6,7 +6,7 @@ import Result from '../components/Result';
 
 function Quiz() {
   const {title} = useParams();
-  const {data,isPending} = useFetch(`http://localhost:3000/quiz?title=${title}`);
+  const {data,isPending} = useFetch('http://0.0.0.0:10000/quiz');
 
   useEffect(() => {
         document.title = "Quiz" + " " + title;
