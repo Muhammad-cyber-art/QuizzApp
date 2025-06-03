@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 function MenuLinks() {
-  const { data, isPending, error } = useFetch("http://localhost:3000/quiz");
+  const { data, isPending, error } = useFetch("http://0.0.0.0:10000/quiz");
   console.log(data);
   return (
     <div className="pt-16">
